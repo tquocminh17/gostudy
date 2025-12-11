@@ -3,9 +3,9 @@ package cmd
 import (
 	"log"
 
-	"github.com/dhax/go-base/api"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
+	"github.com/tquocminh17/gostudy/goapi/api"
 )
 
 // serveCmd represents the serve command

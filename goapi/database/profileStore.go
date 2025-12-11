@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/dhax/go-base/models"
+	"github.com/tquocminh17/gostudy/goapi/models"
 	"github.com/uptrace/bun"
 )
 

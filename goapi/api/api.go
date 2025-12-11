@@ -8,17 +8,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dhax/go-base/api/admin"
-	"github.com/dhax/go-base/api/app"
-	"github.com/dhax/go-base/auth/jwt"
-	"github.com/dhax/go-base/auth/pwdless"
-	"github.com/dhax/go-base/database"
-	"github.com/dhax/go-base/email"
-	"github.com/dhax/go-base/logging"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/cors"
 	"github.com/go-chi/render"
+	"github.com/tquocminh17/gostudy/goapi/api/admin"
+	"github.com/tquocminh17/gostudy/goapi/api/app"
+	"github.com/tquocminh17/gostudy/goapi/auth/jwt"
+	"github.com/tquocminh17/gostudy/goapi/auth/pwdless"
+	"github.com/tquocminh17/gostudy/goapi/database"
+	"github.com/tquocminh17/gostudy/goapi/email"
+	"github.com/tquocminh17/gostudy/goapi/logging"
 )
 
 // New configures application resources and routes.

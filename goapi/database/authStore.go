@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/dhax/go-base/auth/jwt"
-	"github.com/dhax/go-base/auth/pwdless"
+	"github.com/tquocminh17/gostudy/goapi/auth/jwt"
+	"github.com/tquocminh17/gostudy/goapi/auth/pwdless"
 	"github.com/uptrace/bun"
 )
 

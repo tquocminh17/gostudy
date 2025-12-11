@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/dhax/go-base/auth/authorize"
-	"github.com/dhax/go-base/database"
-	"github.com/dhax/go-base/logging"
+	"github.com/tquocminh17/gostudy/goapi/auth/authorize"
+	"github.com/tquocminh17/gostudy/goapi/database"
+	"github.com/tquocminh17/gostudy/goapi/logging"
 )
 
 const (

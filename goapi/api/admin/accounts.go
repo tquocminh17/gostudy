@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dhax/go-base/auth/pwdless"
-	"github.com/dhax/go-base/database"
 	validation "github.com/go-ozzo/ozzo-validation"
+	"github.com/tquocminh17/gostudy/goapi/auth/pwdless"
+	"github.com/tquocminh17/gostudy/goapi/database"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

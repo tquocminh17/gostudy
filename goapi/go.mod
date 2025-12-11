@@ -1,4 +1,4 @@
-module github.com/dhax/go-base
+module github.com/tquocminh17/gostudy/goapi
 
 go 1.23.0
 

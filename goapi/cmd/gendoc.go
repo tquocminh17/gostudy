@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/dhax/go-base/api"
 	"github.com/go-chi/docgen"
 	"github.com/spf13/cobra"
+	"github.com/tquocminh17/gostudy/goapi/api"
 )
 
 var (
@@ -50,7 +50,7 @@ func genRoutesDoc() {
 	api, _ := api.New(false)
 	fmt.Print("generating routes markdown file: ")
 	md := docgen.MarkdownRoutesDoc(api, docgen.MarkdownOpts{
-		ProjectPath: "github.com/dhax/go-base",
+		ProjectPath: "github.com/tquocminh17/gostudy/goapi",
 		Intro:       "GoBase REST API.",
 	})
 	if err := os.WriteFile("routes.md", []byte(md), 0644); err != nil {

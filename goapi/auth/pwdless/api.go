@@ -9,9 +9,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dhax/go-base/auth/jwt"
-	"github.com/dhax/go-base/email"
-	"github.com/dhax/go-base/logging"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	validation "github.com/go-ozzo/ozzo-validation"
@@ -19,6 +16,9 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/mssola/user_agent"
 	"github.com/sirupsen/logrus"
+	"github.com/tquocminh17/gostudy/goapi/auth/jwt"
+	"github.com/tquocminh17/gostudy/goapi/email"
+	"github.com/tquocminh17/gostudy/goapi/logging"
 )
 
 // AuthStorer defines database operations on accounts and tokens.
